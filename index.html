@@ -5,68 +5,81 @@
     <meta name="keywords" content="html, css, javascript">
     <meta name="description" content="CV Strilets Sergei">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<img src="J5Ka8AuGwM0.jpg" alt="Фото Стрилец Сергей" width="150">
-<br>
-<h1>Стрилец Сергей</h1>
-<p>Я будущий <strong>front-end</strong> разработчик</p>
-<p><strong><em>Мои хобби:</em></strong> программирование и всё что с ним связано, спорт и путешествия.</p>
 
-<p>Мои социальные сети:</p>
-<ul>
-    <li>
-        <a href="vk.com" target="_blank">VK</a>
-    </li>
-    <li>
-         <a href="Telegram" target="_blank">Telegram</a>
-    </li>
-    <li>
-        <a href="LinkedIn" target="_blank">LinkedIn</a>
-    </li>
-</ul>
-<!--ul>li{Element $}*5-->
-<br>
-<table width="500">
-    <thead>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Promodo</td>
-            <td>Result School</td>
-            <td>Freelance</td>
-        </tr>
-        <tr>
-            <td>SEO</td>
-            <td>HTML & CSS</td>
-            <td>Front-end</td>
-        </tr>
-        <tr>
-            <td>2020-2021</td>
-            <td>2022-сейчас</td>
-            <td>2022-сейчас</td>
-        </tr>
-    </tbody>
-</table>
-<div>
-    <h2>Связаться со мной</h2>
-    <label for="text">Ваше имя:</label>
-    <input type="text" id="text" placeholder="Введите имя">
-</div>
-<div>
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email">
-</div>
-<div>
-    <label for="message">Ваше сообщение:</label>
+<header>
+    <img src="J5Ka8AuGwM0.jpg" alt="Фото Стрилец Сергей" width="150">
     <br>
-    <textarea id="message" cols="15" rows="5" placeholder="Введите сообщение..."></textarea>
+    <h1>Стрилец Сергей</h1>
+</header>
+
+<section>
+    <article>Я будущий <strong>front-end</strong> разработчик</article>
+    <article><strong><em>Мои хобби:</em></strong> программирование и всё что с ним связано, спорт и путешествия.</article>
+</section>
+
+<div id="" class="message">
+<p>Мои социальные сети:</p>
+    <ul>
+        <li>
+            <a href="vk.com" target="_blank">VK</a>
+        </li>
+        <li>
+             <a href="Telegram" target="_blank">Telegram</a>
+        </li>
+        <li>
+            <a href="LinkedIn" target="_blank">LinkedIn</a>
+        </li>
+    </ul>
 </div>
+<!--ul>li{Element $}*5-->
+<div id="table">
+    <table >
+        <thead>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Promodo</td>
+                <td>Result School</td>
+                <td>Freelance</td>
+            </tr>
+            <tr>
+                <td>SEO</td>
+                <td>HTML & CSS</td>
+                <td>Front-end</td>
+            </tr>
+            <tr>
+                <td>2020-2021</td>
+                <td>2022-сейчас</td>
+                <td>2022-сейчас</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 <div>
-    <button type="submit">Отправить!</button>
+    <div>
+        <h2>Связаться со мной</h2>
+        <label for="text">Ваше имя:</label>
+        <input type="text" id="text" placeholder="Введите имя">
+    </div>
+    <div>
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email">
+    </div>
+    <div>
+        <label for="message">Ваше сообщение:</label>
+        <br>
+        <textarea id="message" cols="15" rows="5" placeholder="Введите сообщение..."></textarea>
+    </div>
+    <div>
+        <button type="submit">Отправить!</button>
+    </div>
 </div>
 
 </body>
