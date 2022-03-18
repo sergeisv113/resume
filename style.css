@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000000;
+    background: #138787;
+    line-height: 3rem;
+}
+.info-text {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #4B0082;
+    border-radius: 30px;
+    background-color: #138787;
+    padding-left: 100px;
+}
+.name {
+    border: 2px solid #4B0082;
+    border-radius: 30px;
+    background-color: #4c8787;
+    padding-left: 300px;
+}
+.table {
+    border: 2px solid #4b0082;
+    border-radius: 30px;
+    background-color: #18ecec;
+    padding-left: 100px;
+}
+.email {
+    border: 2px solid #4B0082;
+    border-radius: 30px;
+    background-color: #04682c;
+    padding-left: 100px;
+}
+.message {
+    border: 2px solid #4B0082;
+    border-radius: 30px;
+    background-color: #987ef5;
+    padding-left: 100px;
+}

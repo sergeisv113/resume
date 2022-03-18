@@ -1,11 +1,116 @@
+/*Class name*/
+
+.html {
+    background: #de4c1f;
+    color: white;
+    /*margin-bottom: 15px;*/
+}
+.css {
+    background: #0576b8;
+    color: white;
+    /*margin-bottom: 30px;*/
+}
 .header {
     border-bottom: 2px solid green;
 }
 .card {
-    background-color: aqua;
     padding: 10px;
-    margin-bottom: 10px;
 }
 .color {
     color: red;
+}
+
+/*Tag name*/
+
+body {
+    background: #ddd;
+    padding: 10px;
+}
+
+/*ID */
+
+#navigation {
+    background: #eee;
+}
+/*От родительского тега к дочернему*/
+.card p {
+    font-size: 20px;
+}
+/*Множественный селектор*/
+#header, .html, .css {
+    margin-bottom: 10px;
+}
+/*Все елементы*/
+* {
+
+}
+/*Шрифт*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body {
+    /*font-family: Verdana, Georgia, sans-serif;*/
+
+    font-family: 'Roboto', sans-serif; /*подключ внеш шрифт*/
+    font-size: 18px; /*размер текста*/
+    font-weight: bold;   /*жирность текста*/
+    /*||*/
+    /*font: normal 20px 'Roboto', sans-serif;*/
+
+    line-height: 1.6em;
+    /*text-decoration: line-through;зачеркнутый текст*/
+    font-style: italic; /*наклонный текст*/
+    letter-spacing: 2px;/*отступ между символами*/
+    word-spacing: 2px;/*отступ между word*/
+}
+/*конкретн эл*/
+/*.css p {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}*/
+
+/*Цвета*/
+.color-1 {
+    color: darkmagenta;
+}
+.color-2 {
+    color: #4B0082;
+/* min 00 - max FF   */
+}
+.color-3 {
+    color: #000;
+}
+.color-4 {
+    color: rgb(255, 0, 255);
+    opacity: 0.2;
+/*min0 - max255    */
+}
+.color-5 {
+    color: rgba(0, 150, 0, 0.2);
+}
+/*Границы*/
+.border-1 {
+   /* border-width: 2px;
+    border-style: solid;
+    border-color: #4B0082;*/
+    border: 2px solid #4B0082;
+    /*border-style: dashed;!* изменить только 1*!*/
+    border-radius: 7px;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+}
+/*bottom, top, right, left*/
+.border-2 {
+    border-bottom: 2px solid darkblue;
+    border-right: 6px solid green;
+    border-bottom-right-radius: 10px;
+}
+.border-3 {
+    border-left: 6px solid red;
+    background: lightcoral;
+    padding-left: 20px;
+    color: #fff;
 }
