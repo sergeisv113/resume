@@ -10,7 +10,7 @@
     margin: 5px;
 }
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     padding-top: 30px;
 }
@@ -29,7 +29,7 @@ body {
     font-size: 25px;
     border: 2px solid #4B0082;
     border-radius: 30px;
-    background-color: #138787;
+    background-color: #4f9948;
     padding-left: 100px;
     margin-bottom: 5px;
 }
@@ -41,6 +41,7 @@ body {
     background-color: #987ef5;
     padding-left: 100px;
     margin-bottom: 5px;
+    margin-top: 10px;
 }
 .avatar {
     display: block;
@@ -81,4 +82,18 @@ a:active {
 }
 a:visited {
     color: #333333;
+}
+.table {
+    width: 100%;
+    padding: 0;
+}
+.table  {
+    text-align: left;
+    padding-bottom: 8px;
+}
+.table td:hover {
+    background: #de4c1f;
+}
+.table td:nth-child(2), .table  td:nth-child(3) {
+    background-color: #7dec74;
 }

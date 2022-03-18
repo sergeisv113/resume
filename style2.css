@@ -148,3 +148,52 @@ a:active {
     opacity: 0.8;
     color: #de4c1f;
 }
+/*списки и таблицы*/
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid green;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    text-align: center;
+    padding-bottom: 10px;/*отступы между стр*/
+}
+.table td:hover {
+    background: #eeefff/*езмен цвет при наведении*/
+}
+.table tr:nth-child(odd) {
+    background: #eee;
+}/*подсветка каждой четной стр event || не чётн odd*/
+.table td:nth-child(2), .table td:nth-child(4) {
+    background: #fffeee;
+}/*подсветка столбца 2 & 4*/
+.navbar {
+    background: lightcoral;
+    /*padding: 10px 20px;*/
+    margin-bottom: 10px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*все елем в линию*/
+    padding: 0 20px;
+}
+.navbar ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+.navbar ul li:hover {
+    background: #ea6767;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+}
