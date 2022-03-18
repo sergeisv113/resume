@@ -114,3 +114,37 @@ body {
     padding-left: 20px;
     color: #fff;
 }
+/*Ссылки*/
+a {
+    color: #333;
+    text-decoration: none;
+    transition: all .2s;
+}
+/*при наведении*/
+a:hover {
+    color: #de4c1f;
+    font-size: 2rem;
+}
+/*
+a:visited {
+    color: red;
+}*/
+a:active {
+    color: #0576b8;
+}
+.css:hover {
+    background: red;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: #de4c1f;
+}

@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:ital@1&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+.name {
+    font-size:22px;
+    text-align: center;
+    margin: 5px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
 body {
     font-family: 'Inconsolata', monospace;
     font-size: 16px;
@@ -9,7 +23,7 @@ body {
     background: #138787;
     line-height: 3rem;
 }
-.info-text {
+.card {
     font-style: italic;
     font-weight: bold;
     font-size: 25px;
@@ -17,28 +31,54 @@ body {
     border-radius: 30px;
     background-color: #138787;
     padding-left: 100px;
+    margin-bottom: 5px;
 }
-.name {
-    border: 2px solid #4B0082;
-    border-radius: 30px;
-    background-color: #4c8787;
-    padding-left: 300px;
-}
-.table {
-    border: 2px solid #4b0082;
-    border-radius: 30px;
-    background-color: #18ecec;
-    padding-left: 100px;
-}
-.email {
-    border: 2px solid #4B0082;
-    border-radius: 30px;
-    background-color: #04682c;
-    padding-left: 100px;
-}
+
 .message {
+    font-size: 20px;
     border: 2px solid #4B0082;
     border-radius: 30px;
     background-color: #987ef5;
     padding-left: 100px;
+    margin-bottom: 5px;
+}
+.avatar {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
+    border-radius: 30px;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    display: block;
+    margin: 5px auto;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: green;
+}
+.btn:visited {
+    background: #4B0082;
+}
+a {
+    text-decoration: none;
+    transition: all .2s;
+}
+a:hover {
+    color: #de4c1f;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+a:active {
+    color: #0576b8;
+}
+a:visited {
+    color: #333333;
 }
