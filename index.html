@@ -1,96 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="html, css, javascript">
-    <meta name="description" content="CV Strilets Sergei">
-    <title>CV</title>
+    <meta name="keywords" content="cv, resume, strilets">
+    <meta name="description" content="Это сайт - резюме Сергея Стрильца">
+    <title>Strilets Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <div class="info">
-        <header >
-            <img src="J5Ka8AuGwM0.jpg" alt="Фото Стрилец Сергей" class="avatar">
-            <div class="name">
+                <img src="J5Ka8AuGwM0.jpg" alt="Фото Стрилец Сергей" class="avatar">
+
+            <div class="info-text">
                 <h1>Стрилец Сергей</h1>
+                <p>
+                    Я будущий <strong>front-end</strong> разработчик.
+                </p>
+                <p>
+                    Мне очень интерсна тема програмирования, также <em>люблю посещать другие страны</em> и заниматься спортом.
+                </p>
+                <h3>Мои социальные сети:</h3>
+                        <a href="vk.com" target="_blank">VK</a>
+                        |
+                        <a href="Telegram" target="_blank">Telegram</a>
+                        |
+                        <a href="LinkedIn" target="_blank">Instagram</a>
             </div>
-
-        </header>
-
-        <section >
-            <article class="message">Я будущий <strong>front-end</strong> разработчик</article>
-            <article class="card">
+    </div>
+<div class="card bg-green">
                 <h2>Мои хобби:</h2>
-                <ol>
+                <ol class="list">
                     <li>Программирование и всё что с ним связано</li>
                     <li>Спорт</li>
                     <li>Путешествия</li>
                 </ol>
-            </article>
-        </section>
-    </div>
-    <!--ul>li{Element $}*5-->
-
-    <div id="table" class="card">
+</div>
+<div class="card bg-red">
+        <h2>Опыт работы</h2>
         <table class="table">
+          <!--  <thead>
             <tr>
-                <td>Название</td>
-                <td>Должность</td>
-                <td>Год</td>
-            </tr>
-                <tr>
-                    <td>Promodo</td>
-                    <td>Result School</td>
-                    <td>Freelance</td>
+                    <td>Название</td>
+                    <td>Должность</td>
+                    <td>Год</td>
                 </tr>
-                <tr>
-                    <td>SEO</td>
-                    <td>HTML & CSS</td>
-                    <td>Front-end</td>
-                </tr>
-                <tr>
-                    <td>2020-2021</td>
-                    <td>2022-сейчас</td>
-                    <td>2022-сейчас</td>
-                </tr>
+            </thead>-->
+            <tbody>
+                    <tr>
+                        <td>Promodo</td>
+                        <td>SEO</td>
+                        <td>2020-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Result School</td>
+                        <td>HTML & CSS</td>
+                        <td>2022-сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Freelance</td>
+                        <td>Front-end</td>
+                        <td>2022-сейчас</td>
+                    </tr>
+           </tbody>
         </table>
-    </div>
-
-    <div class="email">
-        <div>
+</div>
+<div class="card bg-yellow">
+    <h2>Пройденные мной курсы</h2>
+    <ul class="link-list">
+        <li><a href="#">HTML & CSS</a></li>
+        <li><a href="#">SEO</a></li>
+    </ul>
+</div>
+        <form action="/" class="form">
             <h2>Связаться со мной</h2>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="Введите имя">
+        <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
         </div>
-        <div>
-            <label for="email">Ваш email:</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="15" rows="5" placeholder="Введите сообщение..."></textarea>
-        </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="15" rows="5" placeholder="Введите сообщение..."></textarea>
+                </div>
         <div>
             <button type="submit" class="btn">Отправить!</button>
         </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
-
-    <div  class="message">
-        <p>Мои социальные сети:</p>
-        <ul>
-            <li>
-                <a href="vk.com" target="_blank">VK</a>
-            </li>
-            <li>
-                <a href="Telegram" target="_blank">Telegram</a>
-            </li>
-            <li>
-                <a href="LinkedIn" target="_blank">LinkedIn</a>
-            </li>
-        </ul>
-    </div>
-</div>
 </body>
 </html>
